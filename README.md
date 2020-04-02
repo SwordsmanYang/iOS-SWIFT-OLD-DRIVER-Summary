@@ -2,7 +2,7 @@
 
 ### About
 
-[掘金老司机iOS周报](https://juejin.im/user/5a52075e6fb9a01c9d31b107)横向汇总（1-107期）
+[掘金老司机iOS周报](https://juejin.im/user/5a52075e6fb9a01c9d31b107)横向汇总（1-107期）绝大部分来源于老司机周报但不限于此
 
 ## 目录
 - [优化@](#优化)
@@ -11,6 +11,7 @@
 - [动画@](#动画)
 - [Swift@](#Swift)
 - [工具@](#工具)
+- [面试@](#面试)
 
 #### 优化@
 * [为什么 Debug Information Format 改为 DWARF 可以提高编译速度？](https://mp.weixin.qq.com/s/97h0oeotOpyTc_a-9ZSJtQ) 
@@ -26,8 +27,10 @@
 * [MediaPipe - 跨平台机器学习应用开发框架](https://juejin.im/post/5e702e06e51d4526f363c62a?utm_source=gold_browser_extension) 
 * [微信支付跨平台软件架构](https://mp.weixin.qq.com/s?__biz=MzAwNDY1ODY2OQ==&mid=2649287208&idx=1&sn=6f3813deaad2aa6f096bc0b0d7ba8c34&chksm=8334ceaab44347bc903bcf1d00898e124ccbc509fd628b119071b41a05959f09df2ef0716bea&mpshare=1&scene=1&srcid=&sharer_sharetime=1584703159505&sharer_shareid=c357a4972a00ef443223641b12ffbd76#rd)  
 * [Weex、RN还是Flutter？资深技术专家与你聊聊阿里跨平台思路](https://mp.weixin.qq.com/s/AufpOA4ZDu0sf0sL-Sv_Sw) 
-* [https://juejin.im/post/5e78989cf265da575c16e75c](https://juejin.im/post/5e78989cf265da575c16e75c) 
+* [Flutter Platform Channel 使用与源码分析](https://juejin.im/post/5e78989cf265da575c16e75c) 
 * [FlutterBoost1.0到2.0，我一共做了这几件事...](https://mp.weixin.qq.com/s?__biz=MzU4MDUxOTI5NA==&mid=2247485085&idx=1&sn=277e1c7d555099f1cb1018614810f14e&chksm=fd54d28cca235b9a16518428b7f7df249e6da193e6fa9b567f19bcf9d88790e02b888c0c93bc&token=1853870359&lang=zh_CN#rd) - 闲鱼技术
+* [FLUI](https://www.flui.xin/) - 是一个基于 Flutter 开发的 UI 框架，拥有完善的使用示例和文档，同时支持动态化渲染、Dark Mode 等特性
+* [打破重重阻碍，Flutter 和 Web 生态如何对接？](https://mp.weixin.qq.com/s/eL02zPLFbTOXm1vS6UEA4g)
 
 #### 动画@
 * [用UIKit和UIView在视图上执行iOS动画](https://juejin.im/post/5e784681f265da57671be823) - 60 Fps动画，UIKIT/UIVIEW动画 UIViewProperty动画
@@ -35,9 +38,13 @@
 #### Swift@
 * [Swift 5.2 正式发布 & 5.3 正在路上](https://swift.org/blog/5-3-release-process/) 
 * [手淘 App 如何落地 Swift ？一边探索实践，一边“打怪升级”](https://mp.weixin.qq.com/s/_iweRWQCjnoASCmUAKHDFA) 
+* [UIAlertController with Function Builders](https://felginep.github.io/2020-03-10/uialertcontroller-function-builders) - Function Builder 是 Swift 5.1 的新特性，在 Swift 的基础上构建自己的 DSL 的语法。文章基于 Function Builder，创建简单且易读的 UIAlertController API
 
 #### 工具@
 * [滴滴正式发布开源客户端研发助手DoKit 3.0，新特性解读](https://mp.weixin.qq.com/s/cTze8_-0KBIHHh96aEcilg)  - DoKit3.0 - 不只是工具
 * [SourceKitForSafari](https://github.com/kishikawakatsumi/SourceKitForSafari)  - 提升在 github 上浏览代码的体验
 * [Determining which frameworks use UIWebView](https://blog.kulman.sk/determining-which-frameworks-use-uiwebview/)  - 检测三方库是否包含 UIWebView
 * [Profiling and debugging your Combine code with Timelane](https://www.donnywals.com/profiling-and-debugging-your-combine-code-with-timelane/)  -是一个响应式编程调试工具，结合 Instrument 提供更直观、交互式的调试过程，同时支持 Combine 和 RxSwift。
+
+#### 面试@
+* [在阿里我是如何当面试官的（持续更新）](https://juejin.im/post/5e6ebfa86fb9a07ca714d0ec)  - 不是面试iOS的，但是有很多可以学习的地方
